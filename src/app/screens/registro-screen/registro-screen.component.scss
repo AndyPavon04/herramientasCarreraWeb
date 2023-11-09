@@ -27,7 +27,7 @@
 
 .login-img{
   width: 360px;
-  height: 184px;
+  height: 200px;
 }
 
 .content{
@@ -70,6 +70,7 @@
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
+
 }
 
 .label-pwd{
@@ -328,4 +329,11 @@ mat-label{
 }
 ::ng-deep .mat-progress-spinner circle, .mat-spinner circle {
   stroke: #FFFFFF;
+}
+
+.inputs-login{
+  width: 280px;
+  height: 48;
+  margin: auto;
+  width: 100%;
 }
