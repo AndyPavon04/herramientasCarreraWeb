@@ -39,7 +39,7 @@
 
                       <!-- Select tiendas -->
                       <mat-form-field appearance="outline" class="mt-3">
-                          <mat-label>Tienda de compra</mat-label>
+                          <mat-label class = "iputs-label">Tienda de compra</mat-label>
                           <mat-select [(ngModel)]="participacion.tienda" name="tiendas" (selectionChange)="changeTienda($event)">
                               <mat-option *ngFor="let tienda of tiendas" [value]="tienda.value">
                                   {{tienda.nombre}}

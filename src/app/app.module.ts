@@ -12,7 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { MatNativeDateModule } from '@angular/material/core';
+import {MatNativeDateModule } from '@angular/material/core';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatSidenavModule} from '@angular/material/sidenav';
@@ -20,10 +20,17 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 //Componentes
 import { RegistroScreenComponent } from './screens/registro-screen/registro-screen.component';
 import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
+import { JuegoTerminadoScreenComponent } from './screens/juego-terminado-screen/juego-terminado-screen.component';
+import { BasesDeLaPromocionScreenComponent } from './screens/bases-de-la-promocion-screen/bases-de-la-promocion-screen.component';
+import { InstruccionesScreenComponent } from './screens/instrucciones-screen/instrucciones-screen.component';
+import { JuegoScreenComponent } from './screens/juego-screen/juego-screen.component';
+import { PoliticaDePrivacidadScreenComponent } from './screens/politica-de-privacidad-screen/politica-de-privacidad-screen.component';
+import { TerminosYCondicionesScreenComponent } from './screens/terminos-y-condiciones-screen/terminos-y-condiciones-screen.component';
+//partials
+import { FooterAppComponent } from './partials/footer-app/footer-app.component';
 import { HeaderAppComponent } from './partials/header-app/header-app.component';
 import { LeftSidebarComponent } from './partials/left-sidebar/left-sidebar.component';
-import { JuegoTerminadoScreenComponent } from './screens/juego-terminado-screen/juego-terminado-screen.component';
-import { FooterAppComponent } from './partials/footer-app/footer-app.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +40,13 @@ import { FooterAppComponent } from './partials/footer-app/footer-app.component';
     HeaderAppComponent,
     LeftSidebarComponent,
     JuegoTerminadoScreenComponent,
-    FooterAppComponent
+    FooterAppComponent,
+    BasesDeLaPromocionScreenComponent,
+    InstruccionesScreenComponent,
+    JuegoScreenComponent,
+    PoliticaDePrivacidadScreenComponent,
+    TerminosYCondicionesScreenComponent
+
   ],
   imports: [
     BrowserModule,
