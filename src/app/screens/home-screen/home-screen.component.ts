@@ -7,10 +7,9 @@ import { Router } from '@angular/router';
   templateUrl: './home-screen.component.html',
   styleUrls: ['./home-screen.component.scss']
 })
-
 export class HomeScreenComponent implements OnInit {
 
-  public name_user: string = "Andy Pavon";
+  public name_user: string = "Andy Pérez Pavón";
   public isLoading: boolean = false;
   //Form dinámico de campos de texto
   public inputsCodigo : FormGroup;
@@ -47,7 +46,7 @@ export class HomeScreenComponent implements OnInit {
   }
 
   public saberMas(){
-
+    this.router.navigate(["bases-promocion"]);
   }
 
   public obtenerCodigos(){
@@ -89,7 +88,7 @@ export class HomeScreenComponent implements OnInit {
 
   }
 
-  public isMobile (tipo: number) {
+  public isMobile(tipo: number){
     switch(tipo){
       case 1:
         if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|CriOS/i.test(navigator.userAgent)){

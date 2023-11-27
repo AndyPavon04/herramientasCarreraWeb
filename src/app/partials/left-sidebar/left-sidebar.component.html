@@ -5,7 +5,7 @@
       </div>
   </div>
   <div class="body-sidebar">
-      <div class="links" *ngIf="isLogin" (click)="iniciarSesion()">
+      <div class="links" *ngIf="!isLogin" (click)="iniciarSesion()">
           <div class="line-color">
               <div class="vertical-line" style="height: 111px;"></div>
           </div>
@@ -47,6 +47,18 @@
           </div>
           <div class="title-link">
               <span>TIENDAS PARTICIPANTES</span>
+          </div>
+          <div class="arrow-icon">
+              <mat-icon class="icon-right">arrow_forward_ios</mat-icon>
+          </div>
+      </div>
+
+      <div class="links" (click)="goPerfil()">
+          <div class="line-color">
+              <div class="vertical-line" style="height: 111px;"></div>
+          </div>
+          <div class="title-link">
+              <span>PERFIL DEL USUARIO</span>
           </div>
           <div class="arrow-icon">
               <mat-icon class="icon-right">arrow_forward_ios</mat-icon>

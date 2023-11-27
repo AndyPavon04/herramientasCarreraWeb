@@ -4,11 +4,13 @@ import { LoginScreenComponent } from './screens/login-screen/login-screen.compon
 import { RegistroScreenComponent } from './screens/registro-screen/registro-screen.component';
 import { HomeScreenComponent } from './screens/home-screen/home-screen.component';
 import { JuegoTerminadoScreenComponent } from './screens/juego-terminado-screen/juego-terminado-screen.component';
-import { BasesDeLaPromocionScreenComponent } from './screens/bases-de-la-promocion-screen/bases-de-la-promocion-screen.component';
-import { InstruccionesScreenComponent } from './screens/instrucciones-screen/instrucciones-screen.component';
+import { BasesPromocionScreenComponent } from './screens/bases-promocion-screen/bases-promocion-screen.component';
+import { InstruccionesJuegoScreenComponent } from './screens/instrucciones-juego-screen/instrucciones-juego-screen.component';
+import { AvisosPrivacidadScreenComponent } from './screens/avisos-privacidad-screen/avisos-privacidad-screen.component';
 import { JuegoScreenComponent } from './screens/juego-screen/juego-screen.component';
-import { PoliticaDePrivacidadScreenComponent } from './screens/politica-de-privacidad-screen/politica-de-privacidad-screen.component';
-import { TerminosYCondicionesScreenComponent } from './screens/terminos-y-condiciones-screen/terminos-y-condiciones-screen.component';
+import { TerminosCondicionesScreenComponent } from './screens/terminos-condiciones-screen/terminos-condiciones-screen.component';
+
+
 
 
 const routes: Routes = [
@@ -16,11 +18,11 @@ const routes: Routes = [
   { path: 'registro', component: RegistroScreenComponent, pathMatch: 'full' },
   { path: 'home', component: HomeScreenComponent, pathMatch: 'full' },
   { path: 'juego-terminado', component: JuegoTerminadoScreenComponent, pathMatch: 'full' },
+  { path: 'bases-promocion', component: BasesPromocionScreenComponent, pathMatch: 'full' },
+  { path: 'instrucciones-juego', component: InstruccionesJuegoScreenComponent, pathMatch: 'full' },
   { path: 'juego', component: JuegoScreenComponent, pathMatch: 'full' },
-  { path: 'bases-de-la-promocion', component: BasesDeLaPromocionScreenComponent, pathMatch: 'full' },
-  { path: 'instrucciones', component: InstruccionesScreenComponent, pathMatch: 'full' },
-  { path: 'politicas-de-privacidad', component: PoliticaDePrivacidadScreenComponent, pathMatch: 'full' },
-  { path: 'terminos-y-condiciones', component: TerminosYCondicionesScreenComponent, pathMatch: 'full' },
+  { path: 'avisos-privacidad', component: AvisosPrivacidadScreenComponent, pathMatch: 'full' },
+  { path: 'terminos-condiciones', component: TerminosCondicionesScreenComponent, pathMatch: 'full' },
 ];
 
 @NgModule({
