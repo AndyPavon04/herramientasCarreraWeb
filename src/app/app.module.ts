@@ -30,6 +30,9 @@ import { TerminosCondicionesScreenComponent } from './screens/terminos-condicion
 import { FooterAppComponent } from './partials/footer-app/footer-app.component';
 import { HeaderAppComponent } from './partials/header-app/header-app.component';
 import { LeftSidebarComponent } from './partials/left-sidebar/left-sidebar.component';
+import { JuegoOnlineScreenComponent } from './screens/juego-online-screen/juego-online-screen.component';
+import { PerfilScreenComponent } from './screens/perfil-screen/perfil-screen.component';
+
 
 
 
@@ -48,7 +51,10 @@ import { LeftSidebarComponent } from './partials/left-sidebar/left-sidebar.compo
     InstruccionesJuegoScreenComponent,
     AvisosPrivacidadScreenComponent,
     JuegoScreenComponent,
-    TerminosCondicionesScreenComponent
+    TerminosCondicionesScreenComponent,
+    JuegoOnlineScreenComponent,
+    PerfilScreenComponent,
+
 
 
   ],

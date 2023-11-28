@@ -9,6 +9,8 @@ import { InstruccionesJuegoScreenComponent } from './screens/instrucciones-juego
 import { AvisosPrivacidadScreenComponent } from './screens/avisos-privacidad-screen/avisos-privacidad-screen.component';
 import { JuegoScreenComponent } from './screens/juego-screen/juego-screen.component';
 import { TerminosCondicionesScreenComponent } from './screens/terminos-condiciones-screen/terminos-condiciones-screen.component';
+import { JuegoOnlineScreenComponent } from './screens/juego-online-screen/juego-online-screen.component';
+import { PerfilScreenComponent } from './screens/perfil-screen/perfil-screen.component';
 
 
 
@@ -23,6 +25,8 @@ const routes: Routes = [
   { path: 'juego', component: JuegoScreenComponent, pathMatch: 'full' },
   { path: 'avisos-privacidad', component: AvisosPrivacidadScreenComponent, pathMatch: 'full' },
   { path: 'terminos-condiciones', component: TerminosCondicionesScreenComponent, pathMatch: 'full' },
+  { path: 'juego-online', component: JuegoOnlineScreenComponent, pathMatch: 'full' },
+  { path: 'perfil', component: PerfilScreenComponent, pathMatch: 'full' },
 ];
 
 @NgModule({

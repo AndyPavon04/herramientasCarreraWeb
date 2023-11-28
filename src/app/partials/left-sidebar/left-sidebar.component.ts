@@ -35,11 +35,11 @@ export class LeftSidebarComponent implements OnInit {
   }
 
   public goTiendasParticipantes(){
-
+    window.open ("https://docs.google.com/document/d/10J6EUDqat7ISeHheKPc-oJDQGQ7xXQO0/edit?usp=sharing&ouid=106853559518757402097&rtpof=true&sd=true")
   }
 
   public goPerfil(){
-
+    this.router.navigate(["perfil"]);
   }
 
   public logout(){
